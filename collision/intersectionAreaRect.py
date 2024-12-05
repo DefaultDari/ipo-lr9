@@ -25,7 +25,7 @@ def intersectionAreaRect():
         raise RectCorrectError("Некорректные размеры прямоугольника")
 
     elif width <= 0 or height <= 0:
-        print(0)  # Нет пересечения
+        print(0)  # Если нет пересечения
 
     else:
         print(width * height)  # Площадь пересечения
